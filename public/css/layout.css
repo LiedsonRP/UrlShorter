@@ -1,0 +1,72 @@
+:root {
+    --main-font: 'Catamaran', sans-serif;
+    --background-gradient: linear-gradient(180deg, #141F88 29.17%, #200470 66.15%);
+    --border-link-button-color: #0DB8EE;    
+    --border-link-button-color-hover:#057597;    
+}
+
+body, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;    
+    background: var(--background-gradient);
+    margin: 0;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    
+    display: flex;        
+    justify-content: center;
+    padding: 20px;    
+}
+
+footer {        
+    background-color: white;
+    width: 100%;    
+
+    display: flex;
+    flex-direction: column;    
+    align-items: center;    
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+#github {
+    display: flex;
+    flex-direction: column;
+
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 400;    
+}
+
+#github > img {
+    scale: 0.7;
+}
+
+#github > p {
+    margin: 0;
+}
+
+#contact {
+    display: flex;    
+    justify-content: center;
+    gap: 10px;
+}
