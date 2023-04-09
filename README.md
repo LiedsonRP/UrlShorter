@@ -1,3 +1,8 @@
+##UrlShorter
+<p>O projeto trata-se de um encurtado de URL, programado usando o Framework Laravel. Ele recebe um link qualquer e o diminui para um código de 5 caracteres num link proprietário.</p>
+
+<p>Caso o link não esteja expirado, ele redirecionará para a URL ligada ao código.</p>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
