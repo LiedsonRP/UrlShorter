@@ -1,4 +1,4 @@
-##UrlShorter
+## UrlShorter
 <p>O projeto trata-se de um encurtado de URL, programado usando o Framework Laravel. Ele recebe um link qualquer e o diminui para um código de 5 caracteres num link proprietário.</p>
 
 <p>Caso o link não esteja expirado, ele redirecionará para a URL ligada ao código.</p>
